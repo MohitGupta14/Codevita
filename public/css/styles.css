@@ -225,6 +225,7 @@ display:inline;
 .drop-menu a {
   text-decoration: none;
   color: #2e4453;
+background-color: white;
   font-family: var(--font-headings, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
   margin-bottom: 10px;
 }
