@@ -1,133 +1,143 @@
 <%- include('partials/header'); -%>
-<div class ="container1">
-<img class="image01"  src="/images/image1.png" width="100%" alt="image01"  ></div>
+<div class="container1">
+  <img class="image01" src="/images/image1.png" width="100%" alt="image01">
+</div>
 <div class="entire_container">
-<div class="container2"> 
-<h1>Skill Brewery: Free Internship Program</h1>
-<br>
-<p>Work on cool hands-on projects to amplify your profile. Gain an internship certificate, work experience and mentoring after the completion of the programme.</p>
-<br>
-<p>Choose a domain of your interest and get started now! Please note that you can only complete one internship function at a time and will have to wait at least one month before pursuing another function.</p>
+  <div class="container2">
+    <h1>Skill Brewery: Free Internship Program</h1>
+    <br>
+    <p>Work on cool hands-on projects to amplify your profile. Gain an internship certificate, work experience and mentoring after the completion of the programme.</p>
+    <br>
+    <p>Choose a domain of your interest and get started now! Please note that you can only complete one internship function at a time and will have to wait at least one month before pursuing another function.</p>
 
 
-<div class="image2"><img src="/images/image2.webp" width="500px"></div>
-</div>
-
-<h1>Taking in applications for the August cohort!</h1>
-<br>
-<form action="/" method="POST">
-    <div class="form-group row">
-        <div class="col-xs-5">
-    <div class="form-group">
-        <label for="Name">Name</label>
-        <input type="text" class="form-control" name="username" autocomplete="off" required >
-      </div>     
-    <div class="form-group">
-      <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control"  name="email" aria-describedby="emailHelp" placeholder="Enter email" required >
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    </div>
-    <div class="form-group">
-        <label for="InstitutionName">Name of the Institution</label>
-        <input type="text" class="form-control" name="institute" autocomplete="off" required>
-      </div>
-      <div class="form-group">
-        <label for="YourQualification">Your Qualification</label>
-        <input type="text" class="form-control" name="qualification" autocomplete="off" required>
-      </div>
-      <div class="form-group">
-        <label for=" Linkedin">Link To Your Linkedin</label>
-        <input type="text" class="form-control" name= "linkedin" autocomplete="off" required>
-      </div> 
-      <div class="form-group">
-        <label for="Know">How did you get to know about us?</label>
-        <input type="text" class="form-control" name= "howYouKnow"autocomplete="off" required>
-      </div>         
+    <div class="image2"><img src="/images/image2.webp" width="500px"></div>
+  </div>
+  <div class="container3 row">
+    <h1>Taking in applications for the August cohort!</h1>
+    <br>
+    <div class="col-lg-6">
+      <form action="/" method="POST">
+        <div class="form-group">
+          <div>
             <div class="form-group">
-        <label for="AdditionalFile">Additional File</label>
-        <input type="text" class="form-control" autocomplete="off" name= "file" >
-      </div>
-   
-      <form class="checkbox">
-        <h4>Which track would you like to pursue?</h4>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" name="webDevelopment"  id="defaultCheck1">
-          <label class="form-check-label" for="defaultCheck1">
-            Web Development
-          </label>
-          <br>
-          <input class="form-check-input" type="checkbox" name="dataScience"  id="defaultCheck1">
-          <label class="form-check-label" for="defaultCheck1">
-            Data Science
-          </label>
-          <br>
-          <input class="form-check-input" type="checkbox" name="computerVision" value="option1" id="defaultCheck1">
-          <label class="form-check-label" for="defaultCheck1">
-            Computer Vision
-          </label>
-          <br>
-          <input class="form-check-input" type="checkbox" name="campusAmbassador" id="defaultCheck1">
-          <label class="form-check-label" for="defaultCheck1">
-            Campus Ambassador
-          </label>
-          <br>
-          <input class="form-check-input" type="checkbox" name="blockchain" id="defaultCheck1">
-          <label class="form-check-label" for="defaultCheck1">
-            Blockchain(requires assesment)
-          </label>
-          <br>
-          <input class="form-check-input" type="checkbox" name="productManagement" id="defaultCheck1">
-          <label class="form-check-label" for="defaultCheck1">
-            Product Management/Entrepreuner In Residence
-          </label>
-          <br>
-          <input class="form-check-input" type="checkbox" name="appDevelopment" id="defaultCheck1">
-          <label class="form-check-label" for="defaultCheck1">
-            App Development
-          </label>
-        </div>    
-     
+              <label for="Name">Name</label>
+              <input type="text" class="form-control" name="username" autocomplete="off" required>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="InstitutionName">Name of the Institution</label>
+              <input type="text" class="form-control" name="institute" autocomplete="off" required>
+            </div>
+            <div class="form-group">
+              <label for="YourQualification">Your Qualification</label>
+              <input type="text" class="form-control" name="qualification" autocomplete="off" required>
+            </div>
+            <div class="form-group">
+              <label for=" Linkedin">Link To Your Linkedin</label>
+              <input type="text" class="form-control" name="linkedin" autocomplete="off" required>
+            </div>
+            <div class="form-group">
+              <label for="Know">How did you get to know about us?</label>
+              <input type="text" class="form-control" name="howYouKnow" autocomplete="off" required>
+            </div>
+            <div class="form-group">
+              <label for="AdditionalFile">Additional File</label>
+              <input type="text" class="form-control" autocomplete="off" name="file">
+            </div>
+  
+            <form class="checkbox">
+              <h4>Which track would you like to pursue?</h4>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="webDevelopment" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Web Development
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" name="dataScience" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Data Science
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" name="computerVision" value="option1" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Computer Vision
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" name="campusAmbassador" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Campus Ambassador
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" name="blockchain" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Blockchain(requires assesment)
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" name="productManagement" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Product Management/Entrepreuner In Residence
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" name="appDevelopment" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  App Development
+                </label>
+              </div>
+  
+              <br>
+              <button type="submit" class="btn btn-primary" name="button">Submit</button>
+              <br>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="features col-lg-6">
+      <h1>Features</h1>
       <br>
-    <button type="submit" class="btn btn-primary" name ="button">Submit</button>
-<br>
+      <div class="image3">
+        <img src="/images/image03.jpg" width="470">
+      </div>
+      <div>
+        <br><br>
+        <table>
+          <tr>
+            <td>Perks</td>
+            <td>Capstone Project Intensive<br>
+              LinkedIn profile building<br>
+              24/7 Support<br>
+              Internship Completion Certificate</td>
+          </tr>
+          <tr>
+            <td>Commitment</td>
+            <td>5-6 hours a week/1 month</td>
+          </tr>
+          <tr>
+            <td>Ideal For</td>
+            <td>Students pursuing any technical/managerial field at a<br>graduate/undergraduate level</td>
+          </tr>
+          <tr>
+            <td>Pricing</td>
+            <td>Free</td>
+          </tr>
+        </table>
+      </div>
+      <br>
+      <div class="scrollmenu">
+        <h4>
+          <p>For any questions or queries, contact:studentconnect@codevitalive.tech</p>
+        </h4>
+      </div>
+    </div>
+  </div>
+
 </div>
+
 </div>
-</form>
-<div class="features">
-  <h1>Features</h1>
-  <br><div class="image3">
-<img src="/images/image03.jpg" width="470">
-</div>
-<div>
-  <br><br>
-<table>
-  <tr>
-    <td>Perks</td>
-    <td>Capstone Project Intensive<br>
-      LinkedIn profile building<br>
-      24/7 Support<br>
-      Internship Completion Certificate</td>
-  </tr>
-  <tr>
-   <td>Commitment</td>
-   <td>5-6 hours a week/1 month</td>
-  </tr>
-  <tr>
-   <td>Ideal For</td>
-   <td>Students pursuing any technical/managerial field at a<br>graduate/undergraduate level</td>
-  </tr>
-  <tr>
-   <td>Pricing</td>
-   <td>Free</td>
-  </tr>
-</table>
-</div>
-<br>
-<div class="scrollmenu">
-<h4><p>For any questions or queries, contact:studentconnect@codevitalive.tech</p>
-</h4>
-</div>
-</div>
-</div>
+
 
 <%- include('partials/footer'); -%>
