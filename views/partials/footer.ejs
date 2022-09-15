@@ -1,12 +1,51 @@
 
 </div>
-<div class="footer-padding"></div>
+<div class="first" style="padding:50px 50px 50px 50px;">
+    <span style="opacity: 0.2;background-color: #000;bottom: 0;left: 0;position: absolute;right: 0;top: 0;z-index: 1;color: #f7f7f6;"></span>
+    <div class="second" style="background-position:50% 50%;background-image: url('https://codevitalive.files.wordpress.com/2022/05/untitled-design-22.png');"></div>
+    <div class="third">
+       <h1 class="text" style="color: #ff6200;font-family: 'Brush Script MT';"><em>" Code is like humor. When you have to explain it, it's bad." - Cory House</em></h1>
+    </div>
+</div>
 
-  <div class="footer">
-    <section class="pattern">
-    <h1><p>“ Code is like humor. When you have to explain it, it’s bad.” –<br><div id="author">Cory House</id> </p>
- </h1></section>
-</div>
-</div>
+<div class="drop-wrapper">
+    <button class="btn" data-target="#dropup" style="text-align: center;font-size: large;font-weight: bold;">&#9679;&#9679;&#9679;</button>
+    <div class="drop-menu dropup" id="dropup">
+      <a href="#" style="display: flex;align-items: center;background-color: white;border-bottom-style: solid; border-width: 1px;"><img src="https://codevitalive.files.wordpress.com/2020/12/cropped-codevita.png?w=50" height="25px" width="25px"><span style="font-size: 18px;font-weight: bold;padding-bottom: 5px;margin-left: 5px;">Codevita live</span></a>
+      <div class="divider"></div>
+      <a href="#">Sign up</a>
+      <div class="divider"></div>
+      <a href="#">Login</a>
+      <div class="divider"></div>
+      <a href="#">Copy shortlink</a>
+      <div class="divider"></div>
+      <a href="#">Report this content</a>
+      <div class="divider"></div>
+      <a href="#">Manage subscriptions</a>
+    </div>
+  </div>
+  <script>
+    const btns = document.querySelectorAll('.btn');
+  const dropMenus = document.querySelectorAll('.drop-menu');
+  
+  btns.forEach(btn => {
+      btn.addEventListener('click', () => {
+          removeActive();
+          btn.classList.add('active');
+          document.querySelector(btn.dataset.target).classList.add('active');
+      })
+  })
+  
+  const removeActive = () => {
+      btns.forEach(btn => btn.classList.remove('active'));
+      dropMenus.forEach(dropmenu => dropmenu.classList.remove('active'));
+  }
+  
+  window.onclick = (e) => {
+    if (!e.target.matches('.btn')) {
+          removeActive()
+    }
+  }
+  </script>
 </body>
 </html>
